@@ -1,0 +1,114 @@
+.hero {
+    padding: 0;
+
+    .hero .inner {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .hero .hero-img {
+        flex: 1;
+
+        img {
+            width: 100%;
+            height: auto;
+            object-fit: cover;
+        }
+    }
+
+    .hero .t-wrap {
+        flex: 1;
+        padding: 4rem;
+    }
+
+    .inner {
+        align-items: center;
+    }
+
+    .swiper-slide {
+        height: 90rem;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        z-index: 0;
+
+        &.hero_sl_1 {
+            background-image: url('/img/241014_final_KR_Main-KV_PC01.png');
+
+            .t-wrap {
+                color: #000;
+
+                .txt {
+                    color: #000;
+                }
+            }
+        }
+
+        &.hero_sl_2 {
+            background-image: url('/img/250220_final_KR_Reflection-Skin-Glow-Cushion_Sub_Moody-Look_main_KV_PC_01.png');
+
+            .t-wrap {
+                color: #000;
+
+                .txt {
+                    color: #000;
+                }
+            }
+        }
+
+        &.hero_sl_3 {
+            background-image: url('/img/250205_final_KR_Reflection-Skin-Glow-Cushion_Sub_Moody-Look_main_KV_PC_02.png');
+
+            .t-wrap {
+                color: #000;
+
+                .txt {
+
+                    color: #000;
+                }
+            }
+        }
+    }
+
+    @media screen and (max-width:1111px) {
+
+        .swiper-slide {
+            height: 108rem;
+            background-position: center top;
+
+            &::before {
+                display: block;
+                content:"";
+                position: absolute;
+                left: 0;
+                bottom: 0;
+                height: 15rem;
+                width: 100%;
+                background: linear-gradient(180deg, rgba(255, 255, 255, 0), #fff);
+                z-index: 4;
+            }
+
+            .t-wrap {
+                position: absolute;
+                left: 7.2vw;
+                bottom: 14.5rem;
+
+            }
+
+            &.hero_sl_2 .inner {
+                text-align: left;
+            }
+            &.hero_sl_1 {
+                background-image: url('/img/240927_final_KR_Main-KV_MO01_v2.png');
+            }
+            &.hero_sl_2 {
+                background-image: url('/img/250220_final_KR_Reflection-Skin-Glow-Cushion_Sub_Moody-Look_main_KV_MO_01.png');
+            }
+            &.hero_sl_3 {
+                background-image: url('/img/250205_final_KR_Reflection-Skin-Glow-Cushion_Sub_Moody-Look_main_KV_MO_02.png');
+            }
+        }
+    }
+
+}

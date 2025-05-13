@@ -1,0 +1,45 @@
+.sc1 {
+    .inner {
+        justify-content: space-between;
+        align-items: center;
+        .img-wrap {
+            width: 62.9rem;
+        }
+        .t-wrap{
+            text-align: center;
+        }
+        .txt_1{
+            font-size: 4.6rem;
+            color: #000;
+        }
+        .con_tit{
+            font-size: 3.4rem;
+        }
+        .txt{
+            font-size: 2rem;
+            color: #6F6F6F;
+        }
+        .con_btn{
+            font-size: 2rem;
+        }
+    }
+    @media screen and (max-width:1111px) {
+        .inner {
+            flex-direction: column;
+            gap: 6.5rem;
+            padding: 0 2rem;
+
+            
+        }
+        
+    }
+    @media screen and (max-width:699px) {
+        .inner {
+            .img-wrap{
+                width: 100%;
+            }
+            
+        }
+        
+    }
+}
