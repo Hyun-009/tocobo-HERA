@@ -1,0 +1,86 @@
+.sc3 {
+    padding: 13rem 0 0;
+    
+    &::after{
+        display: block;
+        content: "";
+        position: absolute;
+        width: 100%;
+        height: 10rem;
+        bottom: 0;
+        background-image: url(/public/img/line4.png);
+        background-position: bottom;
+        background-size: 100%;
+        background-repeat: no-repeat;
+        z-index: -1;
+    }
+    .inner {
+        justify-content: space-between;
+
+        .con_tit {
+            color: #000;
+        }
+
+        // brand_talk_img1~4.png
+        .s3_sl_wrap {
+            position: relative;
+            width: 55rem;
+            height: 60rem;
+
+            .in {
+                position: absolute;
+                width: 200%;
+
+                height: 100%;
+                overflow: hidden;
+
+                .swiper {
+                    height: 100%;
+                    .swiper-slide>div {
+                        height: 100%;
+                        background-position: center;
+                        background-size: cover;
+                        background-repeat: no-repeat;
+                    }
+                    .s3_sl_1 {
+                        background-image: url(/img/main_banner03_mo_kr_240607.png);
+                    }
+                    .s3_sl_2 {
+                        background-image: url(/img/240927_final_KR_Main-KV_MO03_v2.png);
+                    }
+                    .s3_sl_3 {
+                        background-image: url(/img/250220_final_KR_Reflection-Skin-Glow-Cushion_Sub_Moody-Look_main_KV_MO_01.png);
+                    }
+                    .s3_sl_4 {
+                        background-image: url(/img/250218_final_KR_sensual_tinted_shine_stick_main_KV_MO_1.png);
+                    }
+                }
+            }
+        }
+    }
+    @media screen and (max-width:1111px) {
+        .inner {
+            flex-direction: column;
+            gap: 5rem;
+            padding: 0 2rem;
+
+        }
+    }
+    @media screen and (max-width:800px) {
+        .inner {
+            .s3_sl_wrap {
+                width: 30rem;
+                height: 55rem;
+            }
+        }
+    }
+    @media screen and (max-width:600px) {
+        .inner {
+            .s3_sl_wrap {
+                width: 20rem;
+                height: 40rem;
+            }
+        }
+    }
+    
+}
