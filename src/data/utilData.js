@@ -5,7 +5,7 @@ const utilData=[
     {
         name:'cart',
         link:'#',
-        icon:'/tocobo-HERA/img/icon_cart.png',
+        icon:'./img/icon_cart.png',
         className:'cart'
     },
 ]

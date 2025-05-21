@@ -15,7 +15,7 @@ const Header = ({isScrolled,modalOpenClick}) => {
         <Nav />
         <h1 className="logo">
           <a href="#">
-            <img src="/img/HERA_logo.png" alt="" />
+            <img src="./img/HERA_logo.png" alt="" />
           </a>
         </h1>
         <Util />

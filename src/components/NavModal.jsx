@@ -4,7 +4,7 @@ const NavModal = ({modalOpen,modalOpenClick}) => {
   return (
     <div className={`navModal ${modalOpen? 'open':''}`}>
       <a href="#" onClick={modalOpenClick}>
-        <img src="/img/icon_search_close_m.png" alt="" />
+        <img src="./img/icon_search_close_m.png" alt="" />
       </a>
     </div>
   )

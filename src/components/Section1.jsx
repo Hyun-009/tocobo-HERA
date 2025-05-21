@@ -15,7 +15,7 @@ const Section1 = () => {
     <section className='sc1'>
       <div className="inner">
         <div className="img-wrap" data-aos="fade-right">
-          <img src="/tocobo-HERA/img/20240108_final_KR-ROUGE-CLASSY-SEOUL-RED_gnb-banner.png" alt="intro" />
+          <img src="./img/20240108_final_KR-ROUGE-CLASSY-SEOUL-RED_gnb-banner.png" alt="intro" />
         </div>
         <div className="t-wrap" data-aos="fade-left">
           <p className="txt_1">
