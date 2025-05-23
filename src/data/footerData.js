@@ -41,9 +41,9 @@ export const footerInfoLinks = [
 ]
 
 export const snsIcons = [
-    { src: "img/icon_c.svg", alt: "icon" },
-    { src: "img/icon_ins.svg", alt: "icon" },
-    { src: "img/icon_y.svg", alt: "icon" }
+    { src: "./img/icon_c.svg", alt: "icon" },
+    { src: "./img/icon_ins.svg", alt: "icon" },
+    { src: "./img/icon_y.svg", alt: "icon" }
 ]
 
 export const customerCenter = {

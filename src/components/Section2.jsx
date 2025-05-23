@@ -69,9 +69,6 @@ const Section2 = () => {
                                             <div className='name'>
                                                 {item.name}
                                             </div>
-                                            <div className='kname'>
-                                                {item.kname}
-                                            </div>
                                         </div>
                                         <div className="img-wrap">
                                             <img src={item.image} alt="img" />
