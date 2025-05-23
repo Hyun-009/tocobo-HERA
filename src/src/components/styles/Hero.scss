@@ -1,0 +1,121 @@
+.hero {
+    padding: 0;
+
+    .inner {
+        align-items: center;
+    }
+
+    .swiper-slide {
+        height: 90rem;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        z-index: 0;
+
+        &.hero_sl_1 {
+            background-image: url('/img/241014_final_KR_Main-KV_PC01.png');
+            .t-wrap {
+                color: #000;
+                .txt {
+                    color: #000;
+                }
+            }
+        }
+
+        &.hero_sl_2 {
+            background-image: url('/img/250220_final_KR_Reflection-Skin-Glow-Cushion_Sub_Moody-Look_main_KV_PC_01.png');
+            .t-wrap {
+                color: #000;
+                .txt {
+                    color: #000;
+                }
+            }
+        }
+
+        &.hero_sl_3 {
+            background-image: url('/img/250205_final_KR_Reflection-Skin-Glow-Cushion_Sub_Moody-Look_main_KV_PC_02.png');
+
+            .t-wrap {
+                color: #000;
+
+                .txt {
+
+                    color: #000;
+                }
+            }
+        }
+
+        &.hero_sl_4 {
+            background-image: url('/img/slider4.png');
+
+            .t-wrap {
+                color: #009bde;
+
+                .txt {
+
+                    color: #009bde;
+                }
+            }
+        }
+    }
+
+    .hero_nav {
+        position: absolute;
+        z-index: 3;
+        bottom: 8.7rem;
+        left: calc(50% - 80rem);
+        display: flex;
+        gap: 2rem;
+
+        .arr_prev,
+        .arr_next {
+            width: 5rem;
+            height: 1.7rem;
+        }
+
+        .arr_prev {
+            background: url('/img/icon_main_ban_arrow_prev.svg');
+        }
+
+        .arr_next {
+            background: url('/img/icon_main_ban_arrow_next.svg');
+        }
+
+        .swiper-pagination {
+            position: relative;
+            width: 5rem;
+            height: 5rem;
+            color: #fff;
+            font-size: 0;
+
+            &:after {
+                display: block;
+                content: "";
+                position: absolute;
+                width: 1px;
+                height: 50px;
+                background-color: #fff;
+                top: 50%;
+                left: 50%;
+                transform: translate(-50%, -50%) rotate(45deg);
+            }
+
+            .swiper-pagination-current {
+                position: absolute;
+                font-size: 2.2rem;
+                top: 0;
+                left: 0;
+            }
+
+            .swiper-pagination-total {
+                position: absolute;
+                font-size: 2.2rem;
+                right: 0;
+                bottom: 0;
+            }
+
+        }
+
+    }
+
+}
